@@ -101,7 +101,7 @@ const Chapter = () => {
                               </span>
                               {data.verses[key].content}
                             </h1>
-                            <h2 className=" text-slate-700  max-w-[80%] text-center">
+                            <h2 className=" text-slate-700  max-w-[90%]  md:max-w-[80%]   text-center">
                               {data.verses[key].translation_eng}
                             </h2>
                           </div>
