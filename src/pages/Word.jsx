@@ -60,7 +60,7 @@ const Word = () => {
                   <h1>surah no :{item.surah_no}</h1>
                   <h1>ayat no :{item.verse_no}</h1>
                 </div>
-                <p className="font-xl text-slate-700  p-6 text-center  flex items-center justify-center">
+                <p className=" text-slate-700  p-6 text-center  flex items-center justify-center">
                   <p className="md:max-w-[60%]">{item.content}</p>
                 </p>
               </div>
