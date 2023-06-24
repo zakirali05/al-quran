@@ -70,7 +70,7 @@ const Range = () => {
         <div className="search3 w-[90%]  md:w-[30%] flex  p-2">
           <input
             type="Number"
-            placeholder="Verse From"
+            placeholder="Verse To"
             className="w-[100%] text-black p-2 "
             value={verseto}
             onChange={(e) => setVerseTo(e.target.value)}
